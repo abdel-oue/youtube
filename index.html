@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<!-- Structure de base du document avec l'en-tête contenant le logo, la barre de recherche et les options utilisateur -->
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <div class="burger">
+                    <div class="barre"></div>
+                    <div class="barre"></div>
+                    <div class="barre"></div>
+                </div>
+                <img src="assest/Images/Youtube_logo.png" alt="YouTube Logo" class="logo-img">
+                <div class="logo-text">YouTube</div>
+            </div>
+
+<!-- Barre de navigation latérale avec différentes sections pour la navigation principale et l'exploration -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button><i class="ri-search-line"></i></button>
+            </div>
+            <div class="user-options">
+                <button class="icon-button"><i class="ri-upload-2-line"></i></button>
+                <button class="icon-button"><i class="ri-notification-3-line"></i></button>
+                <button class="profile-button">
+                    <img src="assest/Images/avatar-profile-icon-flat-style-male-user-profile-vector-illustration-isolated-background-man-profile-sign-business-concept_157943-38764.avif" alt="Profile" class="profile-img">
+                </button>
+            </div>
+        </div>
+    </header>  
+
+<!-- Section principale avec barre latérale contenant les différentes catégories et options -->
+    <main>
+        <nav class="sidebar">
+            <ul class="sidebar-list">
+                <li><i class="ri-home-5-line"></i> Home</li>
+                <li><i class="ri-movie-line"></i> Shorts</li>
+                <li><i class="ri-video-line"></i> Subscriptions</li>
+                <li><i class="ri-fire-line"></i> Trending</li>
+            </ul>
+            <ul class="sidebar-list">
+                <h2>You</h2>
+                <li><i class="ri-history-line"></i> History</li>
+                <li><i class="ri-play-list-2-line"></i> Playlists</li>
+                <li><i class="ri-video-upload-line"></i> Your Videos</li>
+
+<!-- Section des options personnelles et des fonctionnalités de la bibliothèque -->
+                <li><i class="ri-time-line"></i> Watch Later</li>
+                <li><i class="ri-thumb-up-line"></i> Liked Videos</li>
+                <li><i class="ri-folder-video-line"></i> Library</li>
+            </ul>
+            <ul class="sidebar-list">
+                <h2>Explore</h2>
+                <li><i class="ri-gamepad-line"></i> Gaming</li>
+                <li><i class="ri-music-2-line"></i> Music</li>
+                <li><i class="ri-basketball-line"></i> Sports</li>
+                <li><i class="ri-t-shirt-line"></i> Fashion</li>
+                <li><i class="ri-t-shirt-line"></i> Beauty</li>
+
+<!-- Section d'exploration avec différentes catégories de contenu -->
+                <li><i class="ri-emotion-laugh-line"></i> Comedy</li>
+            </ul>
+            <ul class="sidebar-list">
+                <h2>More from YouTube</h2>
+                <li><i class="ri-youtube-line"></i> YouTube Premium</li>
+                <li><i class="ri-youtube-line"></i> YouTube Music</li>
+                <li><i class="ri-youtube-line"></i> YouTube Studio</li>
+                
+            </ul>
+        </nav>
+        <section class="video-feed">
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <div class="thumbnail"><img src="assest/Images/Rick-Astley-Never-Gonna-Give-You-Up.webp" alt="" class="thumbnail-img"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Never Gonna Give You Up</h3>
+                        <p class="channel-name">Rick Astley</p>
+                        <p class="video-stats">1.3B views • 14 years ago</p>
+                    </div>
+                </a>
+            </div>
+
+<!-- Section du flux vidéo principal avec une grille de cartes vidéo -->
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=9bZkp7q19f0">
+                    <div class="thumbnail"><img src="assest/Images/Psy-Gangnam-Style-screenshot-2019-billboard-1500.webp" alt="" class="thumbnail-img"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">PSY - GANGNAM STYLE (강남스타일)</h3>
+                        <p class="channel-name">officialpsy</p>
+                        <p class="video-stats">4.6B views • 11 years ago</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=kJQP7kiw5Fk">
+                    <div class="thumbnail"><img src="assest/Images/maxresdefault.jpg" alt="" class="thumbnail-img"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Luis Fonsi - Despacito ft. Daddy Yankee</h3>
+                        <p class="channel-name">Luis Fonsi</p>
+                        <p class="video-stats">8.2B views • 6 years ago</p>
+                    </div>
+                </a>
+            </div>
+
+<!-- Continuation des cartes vidéo avec informations détaillées -->
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=JGwWNGJdvx8">
+                    <div class="thumbnail"><img src="assest/Images/download.jpg" alt="" class="thumbnail-img"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Ed Sheeran - Shape of You</h3>
+                        <p class="channel-name">Ed Sheeran</p>
+                        <p class="video-stats">5.9B views • 6 years ago</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=RgKAFK5djSk">
+                    <div class="thumbnail"><img src="assest/Images/hq720.jpg" alt="" class="thumbnail-img"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Wiz Khalifa - See You Again ft. Charlie Puth</h3>
+                        <p class="channel-name">Wiz Khalifa</p>
+                        <p class="video-stats">5.7B views • 8 years ago</p>
+                    </div>
+                </a>
+            </div>
+
+<!-- Plus de cartes vidéo montrant des clips musicaux populaires -->
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=OPf0YbXqDm0">
+                    <div class="thumbnail"><img src="assest/Images/uptown-900x599.png" alt="" class="thumbnail-img"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Mark Ronson - Uptown Funk ft. Bruno Mars</h3>
+                        <p class="channel-name">Mark Ronson</p>
+                        <p class="video-stats">4.8B views • 8 years ago</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <div class="thumbnail"><img src="assest/Images/Rick-Astley-Never-Gonna-Give-You-Up.webp" alt="" class="thumbnail-img"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Never Gonna Give You Up</h3>
+                        <p class="channel-name">Rick Astley</p>
+                        <p class="video-stats">1.3B views • 14 years ago</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=9bZkp7q19f0">
+                    <div class="thumbnail"><img src="assest/Images/Psy-Gangnam-Style-screenshot-2019-billboard-1500.webp" alt="" class="thumbnail-img"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">PSY - GANGNAM STYLE (강남스타일)</h3>
+                        <p class="channel-name">officialpsy</p>
+                        <p class="video-stats">4.6B views • 11 years ago</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="video-card">
+                <a href="https://www.youtube.com/watch?v=kJQP7kiw5Fk">
+                    <div class="thumbnail"><img src="assest/Images/maxresdefault.jpg" alt="" class="thumbnail-img"></div>
+                    <div class="video-info">
+                        <h3 class="video-title">Luis Fonsi - Despacito ft. Daddy Yankee</h3>
+                        <p class="channel-name">Luis Fonsi</p>
+                        <p class="video-stats">8.2B views • 6 years ago</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+</html> 
